@@ -14,7 +14,7 @@ get '/' do
   'Go to Lithuania!'
 end
 
-get '/get_dates' do
+get '/free_dates' do
   embassy = params[:_aby] || DEFAULT_EMBASSY
   visitors_count = params[:_c] || DEFAULT_VISITORS_COUNT
   visit_type = params[:_cry] || DEFAULT_VISIT_TYPE
