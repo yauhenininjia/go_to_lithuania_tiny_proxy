@@ -10,6 +10,8 @@ DEFAULT_EMBASSY = 3
 DEFAULT_VISITORS_COUNT = 2
 DEFAULT_VISIT_TYPE = 6
 
+RestClient.log = 'stdout'
+
 get '/' do
   'Go to Lithuania!'
 end
